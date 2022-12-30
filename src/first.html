@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=0, initial-scale=1.0">
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            user-select: none;
+            height: 100%;
+            margin: 0;
+            background-color: rgb(30, 30, 30);
+        }
+
+        .title {
+            color: rgb(212, 212, 212);
+            font-size: 100px;
+
+        }
+
+        .text {
+            display: table-cell;
+            vertical-align: middle;
+            font-weight: bold;
+        }
+
+        .textall {
+            width: 100%;
+            height: 100%;
+            display: table;
+            text-align: center;
+        }
+
+        .subtitle {
+            color: white;
+            font-size: 20px;
+            font-weight: lighter;
+        }
+
+        .btn {
+            width: 30%;
+            margin-top: 15px;
+            height: 36px;
+            padding: 6px 6px 10px 10px;
+            background-color: rgb(212, 212, 212);
+            box-shadow: none;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: 0.3s;
+            outline: none;
+        }
+
+        .btn:hover {
+            background-color: rgb(170, 170, 170);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="textall">
+        <div class="text">
+            <span class="title" id="title" style>该看书了</span>
+            <br>
+            <span class="subtitle">[[[titleAndLocation]]]</span>
+            <br>
+            <button class="btn" id="found">我找到了！</button>
+        </div>
+    </div>
+
+
+    <script src="./js/midole.min.js"></script>
+    <script src="./js/search.js"></script>
+    <script>
+        var title = search().title;
+        var locations = search().locations;
+        var day = search().day;
+        md.init();
+        md.inner({
+            "titleAndLocation": `今天是你坚持读书的第${day}天，你要阅读的书目是《${title}》，它现在正在${locations},找到后请点击下方按钮开始阅读`,
+        });
+
+        document.getElementById("found").onclick = () => {
+            window.location.href = __dirname + "/second.html";
+        }
+    </script>
+</body>
+
+</html>

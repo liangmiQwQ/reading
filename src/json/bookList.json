@@ -1,0 +1,134 @@
+[
+    {
+        "day": 1,
+        "locations": "B4书架，蓝色封面",
+        "title": "愿所有遗憾，都是成全",
+        "finishi": true
+    },
+    {
+        "day": 2,
+        "locations": "B4书架，封面蓝色",
+        "title": "愿所有遗憾，都是成全",
+        "finishi": false
+    },
+    {
+        "day": 3,
+        "locations": "B4书架，封面蓝色",
+        "title": "愿所有遗憾，都是成全",
+        "finishi": false
+    },
+    {
+        "day": 4,
+        "locations": "o书架，棕白封面",
+        "title": "小学生鲁迅读本",
+        "finishi": false
+    },
+    {
+        "day": 5,
+        "locations": "o书架，棕白封面",
+        "title": "小学生鲁迅读本",
+        "finishi": false
+    },
+    {
+        "day": 6,
+        "locations": "o书架，棕白封面",
+        "title": "小学生鲁迅读本",
+        "finishi": false
+    },
+    {
+        "day": 7,
+        "locations": "o书架，棕白封面",
+        "title": "小学生鲁迅读本",
+        "finishi": false
+    },
+    {
+        "day": 8,
+        "locations": "B4书架，红白封面",
+        "title": "万物真有趣",
+        "finishi": false
+    },
+    {
+        "day": 9,
+        "locations": "B4书架，红白封面",
+        "title": "万物真有趣",
+        "finishi": false
+    },
+    {
+        "day": 10,
+        "locations": "B4书架，红白封面",
+        "title": "万物真有趣",
+        "finishi": false
+    },
+    {
+        "day": 11,
+        "locations": "B4书架，红白封面",
+        "title": "万物真有趣",
+        "finishi": false
+    },
+    {
+        "day": 12,
+        "locations": "B4书架，红白封面",
+        "title": "万物真有趣",
+        "finishi": false
+    },
+    {
+        "day": 13,
+        "locations": "C3书架，红白封面",
+        "title": "早起的奇迹",
+        "finishi": false
+    },
+    {
+        "day": 14,
+        "locations": "C3书架，红白封面",
+        "title": "早起的奇迹",
+        "finishi": false
+    },
+    {
+        "day": 15,
+        "locations": "C3书架，红白封面",
+        "title": "早起的奇迹",
+        "finishi": false
+    },
+    {
+        "day": 16,
+        "locations": "C3书记啊，黄绿封面",
+        "title": "生命的战争",
+        "finishi": false
+    },
+    {
+        "day": 17,
+        "locations": "C3书记啊，黄绿封面",
+        "title": "生命的战争",
+        "finishi": false
+    },
+    {
+        "day": 18,
+        "locations": "C3书记啊，黄绿封面",
+        "title": "生命的战争",
+        "finishi": false
+    },
+    {
+        "day": 19,
+        "locations": "C3书记啊，黄绿封面",
+        "title": "生命的战争",
+        "finishi": false
+    },
+    {
+        "day": 20,
+        "locations": "C3书记啊，黄绿封面",
+        "title": "生命的战争",
+        "finishi": false
+    },
+    {
+        "day": 21,
+        "locations": "C3书记啊，黄绿封面",
+        "title": "生命的战争",
+        "finishi": false
+    },
+    {
+        "day": 22,
+        "locations": "none",
+        "title": "你的任务完成了！",
+        "finishi": false
+    }
+]
